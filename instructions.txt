@@ -1,2 +1,7 @@
 This file is created to add instructions for using this project. This repo contains a game made in Visual Studio.You will have to move your cursor from start to end without touching any berriers.
 Another thing is there and it is a character walking animation made using JavaScript.
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, tellus in gravida porta, mauris felis elementum sapien, sed faucibus mi mi eu nisl. Aliquam nec ante condimentum magna sodales auctor nec quis eros. Proin posuere sed dolor et finibus. Fusce sit amet massa in sapien malesuada placerat a et erat. Sed luctus, justo id gravida posuere, libero purus volutpat purus, eu pretium massa massa vitae justo. Donec mollis felis tortor, non egestas libero porta nec. Morbi tempus mollis ipsum sed blandit. Nulla eget interdum massa, sed feugiat felis. Nulla eu urna pharetra, tincidunt metus id, aliquet elit. Ut lobortis.
+
+please visit edunology.tk
