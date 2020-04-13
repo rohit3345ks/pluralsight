@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>
+            Character Walking
+        </title>
+        <style>
+            #image
+            {
+                background: url("walk.png") 0px 0px;
+                margin: auto;
+                margin-top: 170px;
+                width: 75px;
+                height: 132px;
+            }
+        </style>
+        <script>
+            var tID;
+            function stopanim() {
+                            clearInterval(tID);
+                        }
+            function walkanim()
+            {
+                var position=75;
+                const interval=100;
+                tID=setInterval(()=>
+                {
+                    document.getElementById("image").style.backgroundPosition=`-${position}px 0px`;
+                    if(position<600)
+                    {
+                        position=position+75;
+                    }
+                    else
+                    {
+                        position=75;
+                    }
+                }, 
+                 interval);
+            }
+        </script>
+    </head>
+    <body>
+        <div align="center">
+            <h1>Character Walking Animation</h1>
+        </div>
+        <div id="char" align="center">
+            <p id="image"></p>
+            <br>
+            <button onclick="walkanim();">Walk</button>
+            <button onclick="stopanim();">Stop</button>
+        </div>
+    </body>
+</html>
