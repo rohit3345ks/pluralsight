@@ -1,0 +1,2 @@
+This file is created to add instructions for using this project. This repo contains a game made in Visual Studio.You will have to move your cursor from start to end without touching any berriers.
+Another thing is there and it is a character walking animation made using JavaScript.
